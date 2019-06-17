@@ -1,30 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>RV &mdash; Royal Vintage (PVT) Ltd.</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/fonts/icomoon/style.css">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/jquery-ui.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/owl.theme.default.min.css">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/jquery.fancybox.min.css">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap-datepicker.css">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/fonts/flaticon/font/flaticon.css">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/aos.css">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css">
-    
-  </head>
+ 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
 
@@ -482,20 +458,6 @@
 
   </div> <!-- .site-wrap -->
 
-  <script src="<?php echo base_url();?>assets/js/jquery-3.3.1.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/jquery-ui.js"></script>
-  <script src="<?php echo base_url();?>assets/js/popper.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/bootstrap.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/owl.carousel.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/jquery.countdown.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/jquery.easing.1.3.js"></script>
-  <script src="<?php echo base_url();?>assets/js/aos.js"></script>
-  <script src="<?php echo base_url();?>assets/js/jquery.fancybox.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/jquery.sticky.js"></script>
-  <script src="<?php echo base_url();?>assets/js/isotope.pkgd.min.js"></script>
-
-  
-  <script src="<?php echo base_url();?>assets/js/main.js"></script>
 
   
   </body>
