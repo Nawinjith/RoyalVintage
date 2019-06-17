@@ -24,9 +24,7 @@
     </div>
    
 
-
-  
-     
+   
     <div class="site-blocks-cover overlay" style="background-image: url(assets/images/img_1.jpg);" data-aos="fade" id="home-section">
 
       <div class="container">
