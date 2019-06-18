@@ -8,5 +8,10 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/adminmain.php');
 	}
 
+	public function viewStock()
+	{	
+		$this->load->view('admin/viewStock.php');
+	}
+
 	
 }
