@@ -37,20 +37,7 @@
 
         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
           <li><a href="#home-section" class="nav-link">Home</a></li>
-          <li class="has-children">
-            <a href="#about-section" class="nav-link">About Us</a>
-            <ul class="dropdown">
-              <li><a href="#team-section" class="nav-link">Team</a></li>
-              <li><a href="#pricing-section" class="nav-link">Warehouse Locations</a></li>
-              <li><a href="#faq-section" class="nav-link">FAQ</a></li>
-             
-            </ul>
-          </li>
-          
-          
-  
           <li><a href="#contact-section" class="nav-link">Contact</a></li>
-          <li><a href="<?php echo base_url();?>login" class="nav-link">Sign In</a></li>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-twitter"></span></a></li>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-linkedin"></span></a></li>
