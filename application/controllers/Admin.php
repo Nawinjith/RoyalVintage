@@ -13,5 +13,13 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/viewStock.php');
 	}
 
-	
+	public function salesHistory()
+	{
+		$this->load->view('admin/salesHistory.php');
+	}
+
+	public function paymentHistory(){
+		$this->load->view('admin/paymentHistory.php');
+	}
+// payment history
 }
