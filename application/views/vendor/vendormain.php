@@ -7,5 +7,5 @@
             view warehouse stock/ and status 
             view performance wrt salesperson/warehouse
             view sales history wrt each product
-            
+
 </body>
