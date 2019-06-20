@@ -10,6 +10,7 @@ class Shop extends CI_Controller {
 
 	public function add_order()
 	{
+		$this->load->view('includes/headermain.php');
 		$this->load->view('shop/shopaddorder.php');
 	}
 

@@ -3,5 +3,6 @@
     add sp functions here
         view deliveries to be made
         view delivery history
+        view sales history
         
 </body>
