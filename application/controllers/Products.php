@@ -20,7 +20,7 @@ class Products extends CI_Controller{
         $data['products'] = $this->product->getRows();
         
         // Load the product list view
-        $this->load->view('products/index', $data);
+        $this->load->view('products/index.php', $data);
     }
     
     function addToCart($proID){
