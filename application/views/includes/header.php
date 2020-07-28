@@ -51,8 +51,19 @@
           
   
           <li><a href="#contact-section" class="nav-link">Contact</a></li>
-          <li><a href="<?php echo base_url();?>login" class="nav-link">Sign In</a></li>
-          <li><a href="<?php echo base_url();?>signup" class="nav-link">Sign up</a></li>
+
+          <?php if ($this->session->userdata('user_logedin') == TRUE) {?>
+            <li><a href="<?php echo base_url();?>products" class="nav-link">Products</a></li> 
+            <li class="nav navbar-nav navbar-right">
+              <a href="<?php echo base_url('login/logout'); ?>" class="btn btn-default btn-outline btn-circle collapsed">Sign Out</a>
+            </li>   
+          <?php } else { ?>
+            <li class="nav navbar-nav navbar-right">
+              <a href="<?php echo base_url();?>login" class="btn btn-default btn-outline btn-circle collapsed">Sign In</a>  
+            </li>   
+            <li><a href="<?php echo base_url();?>signup" class="nav-link">Sign up</a></li>
+          <?php } ?>
+          
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-twitter"></span></a></li>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-linkedin"></span></a></li>

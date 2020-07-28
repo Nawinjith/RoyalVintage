@@ -39,6 +39,13 @@
         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
           <li><a href="<?php echo base_url();?>" class="nav-link">Home</a></li>
           <li><a href="<?php echo base_url();?>#contact-section" class="nav-link">Contact</a></li>
+          <?php if ($this->session->userdata('user_logedin') == TRUE) {?>
+            <li><a href="<?php echo base_url();?>products" class="nav-link">Products</a></li> 
+            <a href="<?php echo base_url('cart'); ?>" class="cart-link" title="View Cart">
+              <i class="glyphicon glyphicon-shopping-cart" style="font-size:18px"></i>
+            </a>   
+          <?php } else { ?>
+          <?php } ?>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-twitter"></span></a></li>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-linkedin"></span></a></li>

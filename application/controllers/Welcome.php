@@ -2,6 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
+	public function __construct(){
+
+        parent::__construct();
+  	 	$this->load->model('Contact_model');
+
+    }
 
 	/**
 	 * Index Page for this controller.
@@ -23,5 +29,19 @@ class Welcome extends CI_Controller {
 		$this->load->view('includes/header.php');
 		$this->load->view('main');
 		$this->load->view('includes/footer.php');
+	}
+
+	public function contact()
+	{
+		$data=array(
+			'fname'=>$this->input->post('user_fname'),
+			'lname'=>$this->input->post('user_lname'),
+			'email'=>$this->input->post('user_email'),
+			'subject'=>$this->input->post('subject'),
+			'contactNoMobile '=>$this->input->post('message'),
+		);
+
+		$this->Contact_model->insert($data);
+		redirect('http://localhost/royalvintage/');
 	}
 }

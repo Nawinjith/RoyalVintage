@@ -74,7 +74,10 @@ class Checkout extends CI_Controller{
         $data['cartItems'] = $this->cart->contents();
         
         // Pass products data to the view
-        $this->load->view($this->controller.'/index', $data);
+        $this->load->view('includes/header2.php');
+		$this->load->view($this->controller.'/index', $data);
+		$this->load->view('includes/footer.php');
+        
     }
     
     function placeOrder($custID){

@@ -20,7 +20,10 @@ class Products extends CI_Controller{
         $data['products'] = $this->product->getRows();
         
         // Load the product list view
-        $this->load->view('products/index.php', $data);
+        $this->load->view('includes/header2.php');
+		$this->load->view('products', $data);
+		$this->load->view('includes/footer.php');
+        
     }
     
     function addToCart($proID){
@@ -37,9 +40,7 @@ class Products extends CI_Controller{
             'image' => $product['image']
         );
         $this->cart->insert($data);
-        
-        // Redirect to the cart page
-        redirect('cart/');
+        redirect('products');
     }
     
 }

@@ -30,8 +30,8 @@ class Signup extends CI_Controller {
         'address'=>$this->input->post('user_address'),
         'contactNoMobile '=>$this->input->post('user_mobile'),
         'contactNoResidential'=>$this->input->post('user_residential'),
-          );
-          print_r($user);
+        );
+        print_r($user);
   
         $email_check=$this->Register_model->email_check($user['email']);
         

@@ -34,7 +34,7 @@
                               </div>
 
                               <div class="form-group">
-                                  <input class="form-control" placeholder="Enter Password" name="user_password" type="password" value="">
+                                  <input class="form-control" placeholder="Enter Password" name="user_password" type="password">
                               </div>
 
                               <div class="form-group">
@@ -45,7 +45,7 @@
                                 <select class="form-control" name="user_type" type="text">
                                   <option>Select user type</option>
                                   <option>Customer</option>
-                                  <option>Addmin</option>
+                                  <option>Admin</option>
                                   <option>Shop</option>
                                 </select>
                               </div>
@@ -70,7 +70,7 @@
 
                           </fieldset>
                       </form>
-                      <center><b>You have Already registered ?</b> <br></b><a href="<?php echo base_url('user/login_view'); ?>"> Please Login</a></center><!--for centered text-->
+                      <center><b>You have Already registered ?</b> <br></b><a href="<?php echo base_url();?>login"> Please Login</a></center><!--for centered text-->
                   </div>
               </div>
           </div>
