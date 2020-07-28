@@ -37,8 +37,8 @@
       <nav class="site-navigation position-relative text-right" role="navigation">
 
         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-          <li><a href="#home-section" class="nav-link">Home</a></li>
-          <li><a href="#contact-section" class="nav-link">Contact</a></li>
+          <li><a href="<?php echo base_url();?>" class="nav-link">Home</a></li>
+          <li><a href="<?php echo base_url();?>#contact-section" class="nav-link">Contact</a></li>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-twitter"></span></a></li>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-linkedin"></span></a></li>
