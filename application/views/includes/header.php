@@ -52,6 +52,7 @@
   
           <li><a href="#contact-section" class="nav-link">Contact</a></li>
           <li><a href="<?php echo base_url();?>login" class="nav-link">Sign In</a></li>
+          <li><a href="<?php echo base_url();?>signup" class="nav-link">Sign up</a></li>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-twitter"></span></a></li>
           <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-linkedin"></span></a></li>

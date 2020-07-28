@@ -30,7 +30,7 @@
 
       <div class="row justify-content-center">
         <div class="col-md-12 mb-5 align-self-center">
-          <form action="#" class="p-5 bg-white">
+          <form class="p-5 bg-white" role="form" method="post" action="<?php echo base_url('Login/login_user'); ?>">
             <div class="row form-group justify-content-center">
               <div class="col-md-6 mb-3 mb-md-0">
                 <h2 class="h4 text-black mb-5">Login Here</h2>
@@ -40,21 +40,22 @@
             <div class="row form-group justify-content-center">
               <div class="col-md-6 mb-3 mb-md-0">
                 <label class="text-black" for="fname">Email</label>
-                <input type="text" id="fname" class="form-control">
+                <input type="text" id="fname" class="form-control" name="user_email">
               </div>
             </div>
             <div class="row form-group justify-content-center">
               <div class="col-md-6 mb-3 mb-md-0">
                 <label class="text-black" for="email">Password</label>
-                <input type="password" id="email" class="form-control">
+                <input type="password" id="email" class="form-control" name="user_password" value="">
               </div>
             </div>
             <div class="row form-group justify-content-center">
               <div class="col-md-6">
-                <input type="submit" value="Login" class="btn btn-primary btn-md text-white">
+                <input type="submit" name="login" value="Login" class="btn btn-primary btn-md text-white">
               </div>
             </div>
           </form>
+          <center><b>You are not registered ?</b> <br></b><a href="<?php echo base_url();?>signup">Register here</a></center>
         </div>
       </div>
   </div>
